@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DASHMIN - Bootstrap Admin Template</title>
+    <title>Login - Rent Cars</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -50,7 +50,7 @@
                     <div class="bg-light rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-between mb-3">
                             <a href="{{ route('home') }}" class="">
-                                <h3 class="text-primary"><i class="bi bi-car-front-fill me-2"></i>Rent Cars</h3>
+                                <img src="{{ asset('assets/img/logoS.png') }}" alt="logo" width="200px">
                             </a>
                             <h3>Login</h3>
                         </div>

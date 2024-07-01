@@ -79,7 +79,7 @@
                 <p>Di cakrawala tempat kau dan aku bertemu, 'aku' menjadi 'kita'</p>
             </div>
             <div class="item">
-                <img src="{{ asset('assets/img/logo.png') }}" style="padding: 40px 0 40px 0 " width="100%" alt="Team Member 2">
+                <img src="{{ asset('assets/img/logoS.png') }}" style="padding: 40px 0 40px 0 " width="100%" alt="Team Member 2">
                 <h2 style="text-align: center">Our Motto</h2>
                 <p style="text-align: center">"Mengaspal dengan Gaya, Mengemudi dengan Kelas"</p>
             </div>

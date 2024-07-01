@@ -9,7 +9,7 @@ class HomeController extends Controller
 
     public function welcome()
     {
-        return view('index');
+        return view('index', ['title' => 'Rent Cars']);
     }
 
     public function index()
