@@ -47,7 +47,7 @@
                 <div class="row justify-content-between">
                     <div class="col-md-4 col-sm-4">
                         <div class="logo">
-                            <a href="{{ route('welcome')}}"><img src="{{ asset('assets/index/image/logo.png') }}"
+                            <a href="{{ route('welcome')}}"><img width="200px" src="{{ asset('assets/img/logoL.png') }}"
                                     alt="#" /></a>
                         </div>
                     </div>
@@ -260,7 +260,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <a class="logo_bottom" href="index.html"><img
-                                src="{{ asset('assets/index/image/logo.png') }}" alt="#" /></a>
+                                src="{{ asset('assets/img/logoL.png') }}" width="200px" alt="#" /></a>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout. The point of using Lorem Ipsum is that it has a
                             more-or-less normal distribution of letters, </p>
