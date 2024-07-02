@@ -63,13 +63,13 @@ class UsersComponent extends Component
 
     public function edit($id)
     {
-        $this->reset();
         $cari = User::find($id);
         $this->nama = $cari->name;
         $this->email = $cari->email;
         $this->role = $cari->role;
         $this->id = $cari->id;
         $this->editPage = true;
+        $this->reset();
     }
     public function update()
     {

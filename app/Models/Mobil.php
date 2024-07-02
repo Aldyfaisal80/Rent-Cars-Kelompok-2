@@ -13,7 +13,7 @@ class Mobil extends Model
 
     protected $guarded = ['mobil'];
     protected $primaryKey = 'id';
-    protected $fillable = ['id', 'user_id', 'nopolisi', 'merk', 'jenis', 'kapasitas', 'harga', 'foto'];
+    protected $isiaku = ['id', 'user_id', 'nopolisi', 'merk', 'jenis', 'kapasitas', 'harga', 'foto'];
 
     public function user(): BelongsTo
     {
